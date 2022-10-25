@@ -1,0 +1,81 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Jiayi Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Dashboard"name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Jiayi Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Dashboard"
+      href: flexdashboard.html
+    - text: "About Me"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<js6177@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/shijiayi233/
+output:
+  html_document:
+    theme: flatly
+    css: style.cssname: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Jiayi Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Dashboard"
+      href: flexdashboard.html
+    - text: "About Me"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<js6177@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/shijiayi233/
+output:
+  html_document:
+    theme: flatly
+    css: style.cssname: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Jiayi Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Dashboard"
+      href: flexdashboard.html
+    - text: "About Me"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<js6177@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/shijiayi233/
+output:
+  html_document:
+    theme: flatly
+    css: style.cssname: "nicks-website"
+output_dir: "."
+navbar:
+  title: "Nicks Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
+      href: flexdashboard.html
+    - text: "About Me"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<js6177@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/shijiayi233/
+output:
+  html_document:
+    theme: flatly
+    css: style.css
