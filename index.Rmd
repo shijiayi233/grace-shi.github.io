@@ -1,15 +1,14 @@
 ---
-title: "My awesome website"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
+title: "Jiayi (Grace) Shi"
 ---
 
-# This is Grace's awesome website
+Biostatistics *MS Student*
 
-![]("info/me.jpg")
+Columbia University Mailman School of Public Health
 
+
+<br/><br/>
 <center>
-<img src="info/me.jpg" style="width:55%">
+<img src="info/rainbow.gif">
 </center>
+

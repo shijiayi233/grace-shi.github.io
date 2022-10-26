@@ -1,0 +1,60 @@
+---
+title: "Plotly"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+# bar plot
+
+```{r}
+data("instacart")
+
+instacart %>% 
+  count(aisle) %>% 
+  filter(n > 10000) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")
+```
+
+# box plot
+
+```{r}
+data("ny_noaa")
+
+set.seed(2)
+ny_noaa %>%
+  drop_na() %>% 
+  sample_n(2000) %>% 
+  mutate(
+    prcp = prcp/10,
+    tmin = as.numeric(tmin)/10,
+    tmax = as.numeric(tmax)/10,
+    year = as.character(lubridate::year(date))
+    ) %>% 
+  filter(year %in% c("1981","2010")) %>% 
+  
+  plot_ly(x = ~tmin, y = ~tmax, color = ~year, colors = "Set2",  type = "scatter", mode = "markers", marker = list(size = ~prcp))
+```
+
+# scatter plot
+
+```{r}
+data("rest_inspec")
+
+rest_inspec %>% 
+  filter(boro %in% c("MANHATTAN","BRONX","BROOKLYN","QUEENS","STATEN ISLAND")) %>% 
+  drop_na() %>% 
+  mutate(text_label = str_c("Score: ", score, "\nDescription: ", cuisine_description)) %>% 
+  
+  plot_ly(y = ~score, type = "box", color = ~boro, text = ~text_label, alpha = 0.5)
+```
+
