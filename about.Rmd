@@ -2,15 +2,6 @@
 title: "About Me"
 ---
 
-<div class="row">
-<div class="col-xs-12 col-sm-5 text-center">
-<br/>
-<img src="info/me.jpg" style="width:60%;" align = "top"/> 
-</div>
-<div class="col-xs-12 col-sm-7">
-
-</div>
-</div>
 
 * [My CV](info/CV_jiayi.pdf)
 * [Undergrad Transcript](info/transcript.pdf)

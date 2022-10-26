@@ -7,6 +7,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE)
 library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
