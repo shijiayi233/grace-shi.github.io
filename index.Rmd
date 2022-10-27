@@ -1,11 +1,10 @@
 ---
-title: "Jiayi (Grace) Shi"
+title: "Welcome to my website"
 ---
 
-Biostatistics *MS Student*
+Hello! This is my website. 
 
-Columbia University Mailman School of Public Health
-
+You can learn more [about me](about.html) and check out my projects on [github](http://github.com/shijiayi233/).
 
 <br/><br/>
 <center>
